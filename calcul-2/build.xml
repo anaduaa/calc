@@ -3,8 +3,8 @@
 <project default="test">
 
 
-    <property name="src.java.dir" location="./src/soft/java"/>
-    <property name="src.test.dir" location="./src/soft/tests"/>
+    <property name="src.java.dir" location="./src/java"/>
+    <property name="src.test.dir" location="./src/tests"/>
     <property name="result.dir" location="./target"/>
     <property name="result.javaclasses.dir" location="${result.dir}/classes"/>
     <property name="result.testclasses.dir" location="${result.dir}/testclasses"/>
@@ -14,10 +14,10 @@
 
 
     <path id="NecessaryLibraries">
-        <pathelement location="./UsedLibraries/junit-4.12.jar"/>
+        <pathelement location="./libraryneeded/junit-4.12.jar"/>
         <!--matcher-->
-        <pathelement location="./UsedLibraries/hamcrest-core-1.3.jar"/>
-        <!--<pathelement location="./UsedLibraries/jacocoant.jar"/>-->
+        <pathelement location="./libraryneeded/hamcrest-core-1.3.jar"/>
+        <!--<pathelement location="./libraryneeded/jacocoant.jar"/>-->
     </path>
 
 
